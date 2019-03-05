@@ -23,7 +23,7 @@ Web app that allows a "customer" to input menu data and get a stylized dining me
 *more to come...  
 
 # journal of project progress/issues/challenges/sucesses
-*chose blank bootstrap template to build menu on 
-*issues trying to figure out how to use forms to create dynamic menu, going to start with a very simple plain text to do list but have multiple items per add 
-*issues getting to do list to work, html is fine, need to get javascript to work to add to the webpage, going to work through the code later today or tomorrow 
+*chose blank bootstrap template to build menu on   
+*issues trying to figure out how to use forms to create dynamic menu, going to start with a very simple plain text to do list but have multiple items per add   
+*issues getting to do list to work, html is fine, need to get javascript to work to add to the webpage, going to work through the code later today or tomorrow   
 
