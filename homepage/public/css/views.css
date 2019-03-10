@@ -512,6 +512,7 @@ header.fixed {
 
 .portfolio .pfcontainer a {
     color: rgb(54, 65, 84);
+    font-size: 21px;
 }
 
 /* End Portfolio */
@@ -587,6 +588,11 @@ header.fixed {
     letter-spacing: 3px;
     line-height: 1.9em;
     text-align: left;
+}
+
+.proj_exp .pe_container .project .project_container a{
+    color: #BEC7D5;
+    font-size: 21px;
 }
 
 .proj_exp .pe_container .project .project_container p {
