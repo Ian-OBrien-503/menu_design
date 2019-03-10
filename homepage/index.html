@@ -23,8 +23,7 @@
     <script src="src/components/jquery.flexslider-min.js"></script>
     <!-- skeleton : help organize style/CSS -->
     <link rel="stylesheet" type="text/css" href="public/css/skeleton.css">
-    <!-- Verticle Timeline stylesheet-->
-    <link rel="stylesheet" type="text/css" href="public/css/timeline.css">
+
     <!-- main stylesheet -->
     <link rel="stylesheet" type="text/css" href="public/css/base.css">
     <link rel="stylesheet" type="text/css" href="public/css/views.css">
@@ -147,9 +146,9 @@
         <div class="portfolio">
             <!-- link to resume -->
             <div class="pfcontainer clearfix">
-                <img src="public/img/b2 2.jpg">
+                <img id="portfolio" src="public/img/b2 2.jpg">
                 <div class="overImg">
-                    <h1 id="portfolio">PORTFOLIO</h1>
+                    <h1>PORTFOLIO</h1>
                     <br><br><br><br><br><br><br><br><br>
                     <h2>
                         <span>Ian Edward O'Brien.</span>
@@ -175,15 +174,16 @@
         <div class="proj_exp">
             <!-- Project & Experience container -->
             <div class="pe_container clearfix">
-                <img src="public/img/b3.jpg">
-
+                <img id="project" src="public/img/b3.jpg">
 
                 <!-- Current Project -->
                 <div class="project clearfix">
-                    <div class="overImg clearfix">
-                        <h1 id="project">CURRENT PROJECT</h1>
-                        <h2 class="time">2019 - Now</h2>
-                        <p class="desc">An adjusted leisure dashes. The profile cries. The swallow treasures the
+                    <h1 class="title clearfix">CURRENT PROJECT</h1>
+                    <!-- Project container -->
+                    <div class="project_container">
+                        <h2>2019 - Now</h2>
+                        <h3>Menu Generator</h3>
+                        <p>An adjusted leisure dashes. The profile cries. The swallow treasures the
                             hunted advocate past each concert. A contour toasts a caffeine beneath the communist
                             anthology.An
                             adjusted leisure dashes. The profile cries. The swallow treasures the hunted advocate
@@ -192,6 +192,7 @@
                             past each concert. A contour toasts a caffeine beneath the communist anthology.
                         </p>
                     </div>
+                    <!-- End Project container -->
                 </div>
                 <!-- End Project -->
 
@@ -199,33 +200,42 @@
 
                 <!-- Experience -->
                 <div class="experience" id="experience">
+                    <h1 class="exp_title clearfix" id="experience">EXPERIENCE</h1>
+
                     <div class="overImg clearfix">
-                        <h1 id="experience">EXPERIENCE</h1>
                         <!-- Timeline -->
                         <div class="timeline ">
                             <div class="entries">
                                 <div class="entry">
-                                    <div class="title">2011</div>
+                                    <div class="time">2013</div>
+                                    <div class="title">menu</div>
+                                    <div class="sub_title">Developer</div>
                                     <div class="body">
                                         <p>Neque sunt voluptatibus repellat pariatur ut enim. Eveniet rerum suscipit
                                             eveniet amet dignissimos. Doloremque et distinctio quod molestiae ut.</p>
                                     </div>
                                 </div>
                                 <div class="entry">
-                                    <div class="title">2012</div>
+                                    <div class="time">2014</div>
+                                    <div class="title">menu</div>
+                                    <div class="sub_title">Developer</div>
                                     <div class="body">
                                         <p>Quo nobis cumque dolor iure voluptatem voluptatem alias soluta.</p>
                                     </div>
                                 </div>
                                 <div class="entry">
-                                    <div class="title big">2013</div>
+                                    <div class="time">2015</div>
+                                    <div class="title">menu</div>
+                                    <div class="sub_title">Developer</div>
                                     <div class="body">
                                         <p>Rerum sit libero possimus amet excepturi. Exercitationem enim dolores sunt
                                             praesentium dolorum praesentium.</p>
                                     </div>
                                 </div>
                                 <div class="entry">
-                                    <div class="title">2014</div>
+                                    <div class="time">2016</div>
+                                    <div class="title">menu</div>
+                                    <div class="sub_title">Developer</div>
                                     <div class="body">
                                         <p>Voluptatibus veniam ea reprehenderit atque. Reiciendis non laborum adipisci
                                             ipsa pariatur omnis. Sed ipsam repudiandae velit. Omnis libero nostrum
@@ -233,7 +243,9 @@
                                     </div>
                                 </div>
                                 <div class="entry">
-                                    <div class="title">2015</div>
+                                    <div class="time">2017</div>
+                                    <div class="title">menu</div>
+                                    <div class="sub_title">Developer</div>
                                     <div class="body">
                                         <p>VAdipisci totam omnis cum et suscipit excepturi et excepturi. Inventore
                                             sequi sit ut aliquid. Modi aut dolores dignissimos.</p>
@@ -242,14 +254,18 @@
                                     </div>
                                 </div>
                                 <div class="entry">
-                                    <div class="title big">2016</div>
+                                    <div class="time">2018</div>
+                                    <div class="title">menu</div>
+                                    <div class="sub_title">Developer</div>
                                     <div class="body">
                                         <p>Impedit dolorem commodi explicabo fugit aut alias voluptatem. Magnam earum
                                             rerum quae dicta quibusdam aliquam ut.</p>
                                     </div>
                                 </div>
                                 <div class="entry">
-                                    <div class="title">2017</div>
+                                    <div class="time">2019</div>
+                                    <div class="title">menu</div>
+                                    <div class="sub_title">Developer</div>
                                     <div class="body">
                                         <p>Qui facere eos aut suscipit doloremque quos...</p>
                                     </div>
