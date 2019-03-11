@@ -1,6 +1,5 @@
-// Create a new list item when clicking on the "Add" button
-function newElement() {
-  var li = document.createElement("li");
+// Create a new list item when clicking on the "Add" button function newElement() {
+  var h2 = document.createElement("li");
 
 // ADDED TO BUILD MENU 
   var type = document.getElementById("type").value;
@@ -14,25 +13,26 @@ function newElement() {
   var addPrice = document.createTextNode(price);
 
 
-  h1.appendChild(addItem);
-  document.getElementById("menu").appendchild(li);
-  if (inputValue === '') {
-    alert("You must write something!");
-  } else {
-    document.getElementById("myUL").appendChild(li);
-  }
-  document.getElementById("myInput").value = "";
+  h2.appendChild(addItem);
+  document.getElementById("menu").appendchild(h2);
+  if (type === '') {
+    alert("You must specify section to add to menu!");
+  } 
+  if (type == "specials"){h2.appendChild(addItem)}
+  if (type == "entrees"){}
+  if (type == "sides"){}
+  if (type == "beverages") {}
+  else {alert("specify valid type/section to add to menu")}
+  document.getElementById("type").value = "";
+  document.getElementById("item").value = "";
+  document.getElementById("description").value = "";
+  document.getElementById("price").value = "";
+
+
+
 
   var span = document.createElement("SPAN");
   var txt = document.createTextNode("\u00D7");
   span.className = "close";
   span.appendChild(txt);
   li.appendChild(span);
-
-  for (i = 0; i < close.length; i++) {
-    close[i].onclick = function() {
-      var div = this.parentElement;
-      div.style.display = "none";
-    }
-  }
-}
