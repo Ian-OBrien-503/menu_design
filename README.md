@@ -1,4 +1,9 @@
-# dining menu generator
+# INSTRUCTIONS TO LAUNCH SITE...
+run the following from the command line...
+$ pushd <filename>.html; python3 -m http.server 8000; popd
+then navigate to localhost:8000
+
+## dining menu generator
 Web app that allows a "customer" to input menu data and get a stylized dining menu
 
 ## design plan so far
