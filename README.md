@@ -1,5 +1,7 @@
-# dining menu generator
-Web app that allows a "customer" to input menu data and get a stylized dining menu
+# instructions to view pages...
+run the following from the command line...  
+$ pushd <filename>.html; python3 -m http.server 8000; popd  
+then navigate to localhost:8000
 
 ## design plan so far
 *use forms to collect data from web-app  
