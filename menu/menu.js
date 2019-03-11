@@ -30,9 +30,21 @@ list.addEventListener('click', function(ev) {
 // Create a new list item when clicking on the "Add" button
 function newElement() {
   var li = document.createElement("li");
-  var inputValue = document.getElementById("myInput").value;
-  var t = document.createTextNode(inputValue);
-  li.appendChild(t);
+
+// ADDED TO BUILD MENU 
+  var type = document.getElementById("type").value;
+  var item = document.getElementById("item").value;
+  var description = document.getElementById("description").value;
+  var price = document.getElementById("price").value;
+// ADDED TO BUILD MENU
+  var addType = document.createTextNode(type);
+  var addItem = document.createTextNode(item);
+  var addDescription = document.createTextNode(description);
+  var addPrice = document.createTextNode(price);
+
+
+  h1.appendChild(addItem);
+  document.getElementById("menu").appendchild(li);
   if (inputValue === '') {
     alert("You must write something!");
   } else {
