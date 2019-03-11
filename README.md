@@ -4,7 +4,8 @@ Web app that allows a "customer" to input menu data and get a stylized dining me
 ## design plan so far
 *use forms to collect data from web-app  
 *use data to populate webpage with dynamic size (similar to dynamic tables, but using sections)  
-*stylize that page  
+*stylize that page
+*    import transparent nav bar from codepen
 *figure out what API to use (knowledge, graph, google maps, yelp, more to consider...)
  
 *updats: 
@@ -22,7 +23,18 @@ Web app that allows a "customer" to input menu data and get a stylized dining me
 *pictures(knowledge graph?)  
 *more to come...  
 
-#journal of project progress/issues/challenges/sucesses
-*
-*
+# journal of project progress/issues/challenges/sucesses
+*chose blank bootstrap template to build menu on   
 
+*issues trying to figure out how to use forms to create dynamic menu, going to start with a very simple plain text to do list but have multiple items per add   
+
+*issues getting to do list to work, html is fine, need to get javascript to work to add to the webpage, going to work through the code later today or tomorrow   
+
+*issues to make animation during page loading using css and javascript.
+
+*issues to make the text over img and make the img transparent while not effect the text.
+
+*issues to use the api(mo.js javascript animation engine)(template twitter_fav:https://codepen.io/sol0mka/pen/wWdRLk) By LegoMushroom @sol0mka.
+
+*Fixed issues with mo.js API: reason: "Issue: Must send the script with mojs reference somewhere inside <body> tag instead of <head> - there is the issue that will be solved in near future, but for now, you need to link mojs inside body tag."
+ 

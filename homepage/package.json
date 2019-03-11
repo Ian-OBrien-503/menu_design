@@ -1,0 +1,24 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "the homepage of menu generator project",
+  "main": "index.js",
+  "dependencies": {
+    "animejs": "^3.0.1",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ian-OBrien-503/menu_design.git"
+  },
+  "author": "Ian.O.Brien & Jingtao Cheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ian-OBrien-503/menu_design/issues"
+  },
+  "homepage": "https://github.com/Ian-OBrien-503/menu_design#readme"
+}
