@@ -31,21 +31,19 @@
   <div class="container">
     <div class="row">
 
-
+  <!-- Form handles user input for menu additions -->
+    <form action = "form_handler" method = "post">
       <div id="myDIV" class="header">
       <h2>Add Menu Item and Data</h2>
       <input type="text" id="type" placeholder="type of item (special?entree?drink?)">
-      <span onclick="newElement()" class="addBtn">Add</span>
       <input type="text" id="item" placeholder="item">
-      <span onclick="newElement()" class="addBtn">Add</span>
       <input type="text" id="description" placeholder="description">
-      <span onclick="newElement()" class="addBtn">Add</span>
       <input type="text" id="price" placeholder="$$ price">
-      <span onclick="newElement()" class="addBtn">Add</span>
-
-
+      <span onclick="newMenuItem()" class="addBtn">Add</span>
       </div>
+    </form>
 
+  <!-- actual menu will be displayed here -->
       <div id= "menu" class="col-lg-12 text-center">
       <h1 id = "specials" class = "specials"> specials </h1>
       <h1 id = "entrees" class = "entrees"> entrees </h1>
