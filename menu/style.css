@@ -4,7 +4,7 @@
 }
 
 /* Set all odd list items to a different color (zebra-stripes) */
-#menu:nth-child(odd) {
+ :nth-child(odd) {
   background: #f9f9f9;
 }
 
@@ -51,4 +51,9 @@ input {
 
 .addBtn:hover {
   background-color: #bbb;
+}
+
+.specials{
+  font:"Apple Chancery", cursive;
+  font-weight: bold;
 }
