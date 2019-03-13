@@ -40,3 +40,6 @@ then navigate to localhost:8000
 
 *Fixed issues with mo.js API: reason: "Issue: Must send the script with mojs reference somewhere inside <body> tag instead of <head> - there is the issue that will be solved in near future, but for now, you need to link mojs inside body tag."
  
+*after painstaking issues getting the form to work how i wanted it to to add menu data to the actual proper section of the menu, was finally able to resolve it by reducing to one submit button and appending each data item as a new text node, seprately. 
+
+*issue when trying to apply changes to style.css to get cursive on menu, or make the menu sections bold and stand out more but changes are not being applied when view webpage
