@@ -43,3 +43,6 @@ then navigate to localhost:8000
 *after painstaking issues getting the form to work how i wanted it to to add menu data to the actual proper section of the menu, was finally able to resolve it by reducing to one submit button and appending each data item as a new text node, seprately. 
 
 *issue when trying to apply changes to style.css to get cursive on menu, or make the menu sections bold and stand out more but changes are not being applied when view webpage
+
+*added text to speech api from IBM to hopefully be able to read menu out loud to customer as it is being built, not there yet but am able to use it to introduce our presentation. 
+https://cloud.ibm.com/catalog/services/text-to-speech
