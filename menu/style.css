@@ -3,12 +3,6 @@
   box-sizing: border-box;
 }
 
-/* Set all odd list items to a different color (zebra-stripes) */
- :nth-child(odd) {
-  background: #f9f9f9;
-}
-
-
 /* Style the header */
 .header {
   background-color: #f44336;
@@ -53,7 +47,6 @@ input {
   background-color: #bbb;
 }
 
-.specials{
-  font:"Apple Chancery", cursive;
-  font-weight: bold;
+#specials{
+  font:bold,16px,italic;
 }
