@@ -46,3 +46,5 @@ then navigate to localhost:8000
 
 *added text to speech api from IBM to hopefully be able to read menu out loud to customer as it is being built, not there yet but am able to use it to introduce our presentation. 
 https://cloud.ibm.com/catalog/services/text-to-speech
+
+*issues getting fonts/styling to stick to the menu when using an external CSS file, trying to figure out how to make the webpage look intresting and be able to decipher headers from the rest of the text on the page
