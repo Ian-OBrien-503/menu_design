@@ -1,7 +1,8 @@
 # instructions to view pages...
-run the following from the command line...  
-$ pushd [filename].html; python3 -m http.server 8000; popd  
-then navigate to localhost:8000
+-clone repo locally
+-to run on localhost run the following from the command line...in our project you want to use index.html in the homepage directiory to render homepage and index.html in the menu directiory to render the menu generator 
+   $ pushd [filename].html; python3 -m http.server 8000; popd  
+   then navigate to localhost:8000
 
 ## design plan so far
 *use forms to collect data from web-app  
