@@ -48,3 +48,5 @@ then navigate to localhost:8000
 https://cloud.ibm.com/catalog/services/text-to-speech
 
 *issues getting fonts/styling to stick to the menu when using an external CSS file, trying to figure out how to make the webpage look intresting and be able to decipher headers from the rest of the text on the page
+
+*finding out many CSS styling issues are a result of inheritance, trying to find a way to work around this using direct selection like #menu > h1 to only apply to h1 elements but still having issues of h3 elements inherting from h1 elemnts, do not want this
