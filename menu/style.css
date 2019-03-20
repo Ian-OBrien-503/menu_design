@@ -47,6 +47,20 @@ input {
   background-color: #bbb;
 }
 
-#specials{
-  font:bold,16px,italic;
+#menu>h1{ 
+  font-variant: small-caps; 
+  font-weight: bold;
+  text-decoration: underline dotted black;
+  font-family: 'Kalam';
 }
+
+h1:nth-child(3){
+  font-color: green;
+}
+
+h3 { 
+    font-variant: normal; 
+    font-color: black;
+    font-weight: normal;
+    text-decoration: underline dotted white; !important}
+

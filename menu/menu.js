@@ -1,10 +1,13 @@
 function newMenuItem()
 {
 // Create a new list item when clicking on the "Add" button function newElement() {
-  var x = document.createElement("h2");
-  var y = document.createElement("h2");
-  var z = document.createElement("h2");
+  var x = document.createElement("h3");
+  var y = document.createElement("h3");
+  var z = document.createElement("h3");
   var split = document.createElement("hr");
+
+  var e = document.getElementById("ddlViewBy");
+  var strUser = e.options[e.selectedIndex].text;
   
 
 // get data from the form 
