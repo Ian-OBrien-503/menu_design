@@ -5,11 +5,6 @@ function newMenuItem()
   var y = document.createElement("h3");
   var z = document.createElement("h3");
   var split = document.createElement("hr");
-
-  var e = document.getElementById("ddlViewBy");
-  var strUser = e.options[e.selectedIndex].text;
-  
-
 // get data from the form 
   var type = document.getElementById("type").value;
   var item = document.getElementById("item").value;
