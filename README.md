@@ -1,7 +1,8 @@
 # instructions to view pages...
-run the following from the command line...  
-$ pushd [filename].html; python3 -m http.server 8000; popd  
-then navigate to localhost:8000
+-clone repo locally
+-to run on localhost run the following from the command line...in our project you want to use index.html in the homepage directiory to render homepage and index.html in the menu directiory to render the menu generator 
+   $ pushd [filename].html; python3 -m http.server 8000; popd  
+   then navigate to localhost:8000
 
 ## design plan so far
 *use forms to collect data from web-app  
@@ -52,3 +53,6 @@ https://cloud.ibm.com/catalog/services/text-to-speech
 *finding out many CSS styling issues are a result of inheritance, trying to find a way to work around this using direct selection like #menu > h1 to only apply to h1 elements but still having issues of h3 elements inherting from h1 elemnts, do not want this
 
 *resolved issue with CSS inhertance using an !important rule, hacky but it works
+
+*if more time would like to implement ajax to get text to speech to read more data off of the webpage or inputs or buttons
+in the form of functions that create and play .wav file on mouse hover over or mouse click
