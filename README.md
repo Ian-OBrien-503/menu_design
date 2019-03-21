@@ -53,3 +53,5 @@ https://cloud.ibm.com/catalog/services/text-to-speech
 *finding out many CSS styling issues are a result of inheritance, trying to find a way to work around this using direct selection like #menu > h1 to only apply to h1 elements but still having issues of h3 elements inherting from h1 elemnts, do not want this
 
 *resolved issue with CSS inhertance using an !important rule, hacky but it works
+
+*if more time would like to implement ajax to get text to speech to read more data off of the webpage or inputs or buttons
