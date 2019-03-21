@@ -55,3 +55,4 @@ https://cloud.ibm.com/catalog/services/text-to-speech
 *resolved issue with CSS inhertance using an !important rule, hacky but it works
 
 *if more time would like to implement ajax to get text to speech to read more data off of the webpage or inputs or buttons
+in the form of functions that create and play .wav file on mouse hover over or mouse click
