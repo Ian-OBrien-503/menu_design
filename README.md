@@ -1,11 +1,11 @@
 # instructions to view pages...
 -clone repo locally  
--to run on localhost run the following from the command line...in our project you want to use index.html in the homepage directiory to render homepage and index.html in the menu directiory to render the menu generator 
-   $ pushd [filename].html; python3 -m http.server 8000; popd  
-   then navigate to localhost:8000
+-to run on localhost run the following from the command line...in our project you want to use index.html in the homepage directiory to render homepage and index.html in the menu directiory to render the menu generator  
+   * $ pushd [filename].html; python3 -m http.server 8000; popd  
+   * navigate to localhost:8000
 
 ## design plan so far
-*use forms to collect data from web-app  
+*use format to collect data from web-app  
 *use data to populate webpage with dynamic size (similar to dynamic tables, but using sections)  
 *stylize that page
 *    import transparent nav bar from codepen
